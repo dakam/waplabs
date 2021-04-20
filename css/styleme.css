@@ -1,0 +1,47 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #4E86A5;
+    background-image: url(../images/body-img.jpg);
+  
+    
+}
+header{
+    text-align: center;
+    font-size:20px;
+    font-weight: bold;
+    background-image: url(../images/header-img.jpg);
+}
+
+p .myname {
+    color:white;
+    text-shadow: -5px 5px green;
+    font-size:40px;
+}
+.characters {
+    color:white;
+    
+}
+
+.neighbours {
+    color:#b22028;
+    font-weight:bold;
+}
+.heading {
+    font-size: 20px;
+    font-weight: bolder;
+    color:#eb9605;
+}
+
+a:link { color: #FF0000; 
+    text-decoration-line: none;}
+
+a:visited { color:#20b261; }
+
+a:hover { color: #FF00FF; }
+
+a:active { color: #0000FF; 
+text-decoration-line: none;}
+header::first-letter {
+    font-size: 100px;
+}
+
