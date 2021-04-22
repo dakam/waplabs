@@ -1,0 +1,248 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    /* background: rgb(124, 101, 85) url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom left;     */
+    margin-bottom: 20px;
+    color: #555753; 
+	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
+	margin: 0; 
+    
+}
+
+header h1 {
+
+	margin-top: 10px;
+	display: block;
+	width: 50%;
+    font-size: 70px;
+    margin: 0px auto;
+    color:#20b2aa;
+    text-shadow: 2px 12px rgb(184, 184, 196);
+	
+}
+
+header h2 {
+
+	margin-top: 10px;
+	display: block;
+	width: 50%;
+    font-size: 50px;
+    margin: 0px auto;
+    color:#071d49;
+    text-decoration-color: #afeeee;
+    text-decoration-line:none
+
+}
+
+header h2 > abbr {
+    font-style: italic;
+    font-size: 120%;
+    text-indent: 2%;
+    padding: 10px;
+    color: #ed8b00;
+}
+
+div.summary {
+    width:400px;
+    margin: 0px 10%; 
+   
+    padding: 5px;
+    text-align: right;
+    border: 20px dotted #ed8b00;
+    border-image: url(border.png) 30 round;
+}
+
+.preamble {
+    width:400px;
+    margin: 0px auto;
+    padding:5px;
+    text-align: left;   
+    border: 30px solid #ce8000;
+    border-image: url(border.png) 30 round;
+}
+
+.main {
+
+    display:grid;
+   
+    grid-template-columns: 1fr  1fr;
+    grid-template-rows: 50%  50%;
+    grid-template-areas: 
+   "exp  exp "
+   " part part "
+   "ben ben "
+   " req req ";
+
+}
+.supporting {	
+	padding-left: 10%; 
+    padding-right: 5%;
+    
+
+	
+	}
+
+ div.supporting > div {
+     border: 30px solid #ce8000;
+     border-image: url(border.png) 30 round;
+     margin: 5px 5px 5px 5px;
+     padding: 5px 5px 5px 5px;
+ }
+
+ div.supporting > div > h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+    
+.explanation {
+    grid-area: exp;
+    text-align: right;
+    box-sizing: border-box;
+}
+
+.participation {
+    grid-area: part;
+    box-sizing: border-box;
+
+}
+
+.benefits {
+    grid-area: ben;
+    box-sizing: border-box;
+    text-align: right;
+   
+}
+
+.requirements {
+    grid-area: req;
+    text-align: left;
+    
+
+}
+
+.sidebar {
+    margin-left: 600px; 
+	position: absolute; 
+	top: 0; 
+	right: 0;
+}
+
+nav > ul> li:visited {
+    color:crimson; 
+}
+nav > ul> li:hover {
+    color:crimson; 
+}
+nav > ul> li:active {
+    color:crimson; 
+}
+
+a:active {
+    color:#ed8b00;
+}
+a:visited {
+    color:crimson
+}
+a:hover {
+    color:#ffce00;
+}
+
+footer { 
+	text-align: center; 
+    width:400px;
+    margin: 0px auto;
+    font-style: oblique ;
+
+	}
+footer a:link, footer a:visited { 
+	
+    font-size:18px;
+    text-decoration: none;
+    padding: 10px 10px 10px 10px;
+	}
+
+    .sidebar {
+        margin-left: 0; 
+        padding-top: 5px;
+        overflow:auto;
+   
+       
+       
+        }
+    .sidebar .wrapper { 
+        font: 12px verdana, sans-serif; 
+        font-style: italic;
+       
+        padding: 10px; 
+        margin-top: 150px; 
+        width: 430px; 
+        }
+    .sidebar h3.select { 
+      
+        margin: 10px 0 5px 0; 
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+      
+    
+  
+        }
+
+        div > nav{
+            font-style: oblique;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 14px;
+            color:#66B6D8;
+
+        }
+        .design-name {
+            font-style: oblique;
+            
+            font-size: 14px;
+            color:#66B6D8;
+
+        }
+    .sidebar h3.archives { 
+       
+        margin: 25px 0 5px 0; 
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+      
+        }
+    .sidebar h3.resources { 
+       
+        margin: 25px 0 5px 0; 
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+        }
+    
+    
+    .sidebar ul {
+        margin: 0;
+        padding: 0;
+        }
+    .sidebar li {
+        line-height: 1.3em; 
+      
+        display: block; 
+        padding-top: 5px; 
+        margin-bottom: 5px;
+        list-style-type: none;
+        }
+    .sidebar li a:link {
+        color: #988F5E;
+        }
+    .sidebar li a:visited {
+        color: #B3AE94;
+        }
+    
+    
+    .extra1 {
+        position: absolute; 
+        top: 40px; 
+        right: 0; 
+        width: 148px; 
+        height: 110px;
+        }

@@ -12,7 +12,7 @@ header{
     background-image: url(../images/header-img.jpg);
 }
 
-p .myname {
+p .myname { /* My custom class for my name */
     color:white;
     text-shadow: -5px 5px green;
     font-size:40px;
