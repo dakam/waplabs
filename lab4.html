@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+<link href="css/lab4style.css" type="text/css" rel="stylesheet" />
+<title>Workshop Registration</title>
+</head>
+<body>
+<header>
+<div class="heading">Workshop Registration</div>
+</header>
+<form action="#" >
+<br/> <br/> 
+<span class="subtitlemain">Register now while seats are Available!</span> <br/> <br/> 
+<div class="main"> 
+<div class="leftC">
+<label > First Name <span class="must">*</span> </label><input type="text" name="fname" required /> <br/><br/>
+<label  for="lname"> Last Name <span class="must">*</span></label><input type="text" name="lname"  required/> <br/><br/>
+<label  for="company"> Company/Institution <span class="must">*</span></label><input type="text" name="company"  required/> <br/><br/>
+<label  for="address"> Address <span class="must">*</span> </label><textarea name="address" rows="4" cols="3" required></textarea> <br/><br/>
+<label  for="city"> City </label><input type="text" name="city" /> <br/><br/>
+<label  for="state"> State /Province /Region  </label><select name ="state">
+<option value="">-Select-</option>
+<option value="IOWA">IOWA</option>
+<option value="CHICAGO">CHICAGO</option>
+</select> <br/><br/>
+<label for="country"> Country  </label><select name ="country">
+    <option value="">-Select-</option>
+    <option value="IOWA">United States</option>
+    <option value="eng">England</option>
+    <option value="canada">Canada</option>
+</select> <br/> <br/>
+<label for="email"> Email <span class="must">*</span> </label><input type="email" name="email" required/> <br/><br/>
+<label for="phone"> Phone Number <span class="must">*</span> </label><input type="text" name="phone" required/> <br/><br/>
+</div>
+<div class="rightC">
+    <span class="subtitle">Lunch</span> <br/> <br/>
+    <label for="meals"> Meal Preference </label><select name="meals">
+        <option value="vegetarian">Vegetarian</option>
+        <option value="meat">Meat</option>
+    </select> <br/><br/>
+    <span class="subtitle">Payment Details  </span> <br/> <br/>
+
+    <label > Payment Mode </label><br/>
+    <label >  </label><input type="checkbox" name ="cash_pmode" /> Cash <br/> 
+    <label >  </label><input type="checkbox" name ="cheque_pmode" /> Cheque <br/>
+    <label >  </label><input type="checkbox" name ="cheque_pmode" /> Demand Draft <br/>
+    <br/><br/>
+    <label for="cnumber"> DD /Cheque No. </label><input type="text" name="cnumber" /> <br/><br/>
+    <label for="bankname"> Drawn on (Bank Name) </label><input type="text" name="bankname" /> <br/><br/>
+    <label for="payableat"> Payable at </label><input type="text" name="payableat" /> <br/><br/>
+</div>
+<div class="below">
+<span class="bcontent"> <input type="submit" name ="Submit" /> <input type="Reset" name="resetbtn" /> </span>
+</div>
+</div>
+</form>
+</body>
+</html>
