@@ -19,6 +19,16 @@ function askPassword(ok, fail) {
 
 };
 
+//1. using apply method
+askPassword(()=>user.loginOk.apply(user), ()=>user.loginFail.apply(user))
+
+//2. using call method
+askPassword(()=>user.loginOk.call(user), ()=>user.loginFail.call(user));
+
+//3. using bind method
+askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
+
+//4.using wrapper function
 askPassword(function() {user.loginOk.call(user)}, function() {user.loginFail.call(user)});
 
 //Question 2 // solution using bind
