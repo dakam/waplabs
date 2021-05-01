@@ -29,7 +29,7 @@ askPassword(()=>user.loginOk.call(user), ()=>user.loginFail.call(user));
 askPassword(user.loginOk.bind(user), user.loginFail.bind(user));
 
 //4.using wrapper function
-askPassword(function() {user.loginOk.call(user)}, function() {user.loginFail.call(user)});
+askPassword(function() {user.loginOk()}, function() {user.loginFail()});
 
 //Question 2 // solution using bind
 
